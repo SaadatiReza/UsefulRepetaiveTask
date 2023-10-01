@@ -1,0 +1,7 @@
+#Adding and setting up proxy for the docker daemon in order to use local registry
+sudo mkdir -p /etc/systemd/system/docker.service.d 
+sudo tee -a /etc/systemd/system/docker.service.d/proxy.conf <<EOF
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:3128"
+Environment="HTTPS_PROXY=https://proxy.example.com:3129"
+EOF
