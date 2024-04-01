@@ -1,36 +1,18 @@
-{
-  "outbounds": 
-  [
-    {
-      "type": "wireguard",
-      "tag": "Warp-IR",
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8661:420f:147d:9a1:882/128"
-      ],
-      "private_key": "CHLeRX9RQrz4bxtqiKhEDUgUPmGtxbZIwPr69q3JI1k=",
-      "server": "162.159.195.150",
-      "server_port": 3476,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [16,80,222],
-      "mtu": 1280,
-      "fake_packets": "5-10"
-    },
-    {
-      "type": "wireguard",
-      "tag": "Warp-Main",
-      "detour": "Warp-IR",
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:80da:2fdc:2e9c:6d91:3832/128"
-      ],
-      "private_key": "gIGzj8hbgIguOOgPuXsWGn0EYhu3uogccIsKfENrMV4=",
-      "server": "162.159.195.150",
-      "server_port": 3476,
-      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": [126,99,136],
-      "mtu": 1280,
-      "fake_packets": "5-10"
-    }
-  ]
-}
+ewogICJvdXRib3VuZHMiOiAKICBbCiAgICB7CiAgICAgICJ0eXBlIjogIndpcmVndWFyZCIsCiAg
+ICAgICJ0YWciOiAiV2FycC1JUiIsCiAgICAgICJsb2NhbF9hZGRyZXNzIjogWwogICAgICAgICIx
+NzIuMTYuMC4yLzMyIiwKICAgICAgICAiMjYwNjo0NzAwOjExMDo4NjYxOjQyMGY6MTQ3ZDo5YTE6
+ODgyLzEyOCIKICAgICAgXSwKICAgICAgInByaXZhdGVfa2V5IjogIkNITGVSWDlSUXJ6NGJ4dHFp
+S2hFRFVnVVBtR3R4YlpJd1ByNjlxM0pJMWs9IiwKICAgICAgInNlcnZlciI6ICIxNjIuMTU5LjE5
+NS4xNTAiLAogICAgICAic2VydmVyX3BvcnQiOiAzNDc2LAogICAgICAicGVlcl9wdWJsaWNfa2V5
+IjogImJtWE9DK0YxRnhFTUY5ZHlpSzJINS8xU1V0ekgwSnVWbzUxaDJ3UGZneW89IiwKICAgICAg
+InJlc2VydmVkIjogWzE2LDgwLDIyMl0sCiAgICAgICJtdHUiOiAxMjgwLAogICAgICAiZmFrZV9w
+YWNrZXRzIjogIjUtMTAiCiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJ3aXJlZ3VhcmQiLAog
+ICAgICAidGFnIjogIldhcnAtTWFpbiIsCiAgICAgICJkZXRvdXIiOiAiV2FycC1JUiIsCiAgICAg
+ICJsb2NhbF9hZGRyZXNzIjogWwogICAgICAgICIxNzIuMTYuMC4yLzMyIiwKICAgICAgICAiMjYw
+Njo0NzAwOjExMDo4MGRhOjJmZGM6MmU5Yzo2ZDkxOjM4MzIvMTI4IgogICAgICBdLAogICAgICAi
+cHJpdmF0ZV9rZXkiOiAiZ0lHemo4aGJnSWd1T09nUHVYc1dHbjBFWWh1M3VvZ2NjSXNLZkVOck1W
+ND0iLAogICAgICAic2VydmVyIjogIjE2Mi4xNTkuMTk1LjE1MCIsCiAgICAgICJzZXJ2ZXJfcG9y
+dCI6IDM0NzYsCiAgICAgICJwZWVyX3B1YmxpY19rZXkiOiAiYm1YT0MrRjFGeEVNRjlkeWlLMkg1
+LzFTVXR6SDBKdVZvNTFoMndQZmd5bz0iLAogICAgICAicmVzZXJ2ZWQiOiBbMTI2LDk5LDEzNl0s
+CiAgICAgICJtdHUiOiAxMjgwLAogICAgICAiZmFrZV9wYWNrZXRzIjogIjUtMTAiCiAgICB9CiAg
+XQp9Cg==
